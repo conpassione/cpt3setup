@@ -49,7 +49,7 @@
 		"typo3/cms-t3editor": "^11.5",
 		"typo3/cms-tstemplate": "^11.5",
 		"typo3/cms-viewpage": "^11.5",
-		"conpassione/cpsswbzi": "11.0-dev"
+		"conpassione/cpsswbzi": "dev-main"
 	},
 	"require-dev": {
 		"friendsofphp/php-cs-fixer": "^3.8",
@@ -59,7 +59,7 @@
 	"repositories": [
 		{
 			"type": "vcs",
-			"url": "git@github.com:conpassione/cpsswbzi.git"
+			"url": "https://github.com/conpassione/cpsswbzi.git"
 		}
 	],
 	"scripts":{
