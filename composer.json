@@ -1,8 +1,8 @@
 {
-	"name": "cp/conpassione-distro",
+	"name": "conpassione/base-distro",
 	"description" : "TYPO3 CMS Base Distribution by conpassione gmbh",
 	"license": "GPL-2.0-or-later",
-	"minimum-stability": "stable",
+	"minimum-stability": "dev",
 	"config": {
 		"allow-plugins": {
 			"typo3/class-alias-loader": true,
@@ -49,19 +49,19 @@
 		"typo3/cms-t3editor": "^11.5",
 		"typo3/cms-tstemplate": "^11.5",
 		"typo3/cms-viewpage": "^11.5",
-		"conpassione/cpsswbzi": "*"
+		"conpassione/cpsswbzi": "11.0-dev"
 	},
 	"require-dev": {
 		"friendsofphp/php-cs-fixer": "^3.8",
 		"phpstan/phpstan": "^1.8",
 		"phpunit/phpunit": "^9.5"
 	},
-	"repositories": {
-		"cp": {
-			"type": "github",
-			"url": "git@github.com/conpassione"
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "git@github.com:conpassione/cpsswbzi.git"
 		}
-	},
+	],
 	"scripts":{
 		"typo3-cms-scripts": [
 			"typo3cms install:fixfolderstructure",
