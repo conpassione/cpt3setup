@@ -70,7 +70,6 @@
     			"typo3cms configuration:set EXTCONF/lang/availableLanguages '[\"de\",\"fr\",\"it\"]' --json",
     			"typo3cms configuration:set SYS/phpTimeZone Europe/Zurich",
     			"typo3cms language:update",
-			"typo3cms install:generatepackagestate",
 			"typo3cms install:extensionsetupifpossible"
 		]
 	}
