@@ -20,7 +20,6 @@
 		"typo3/cms-backend": "^11.5",
 		"typo3/cms-belog": "^11.5",
 		"typo3/cms-beuser": "^11.5",
-		"typo3/cms-composer-installers": "^4.0",
 		"typo3/cms-core": "^11.5",
 		"typo3/cms-dashboard": "^11.5",
 		"typo3/cms-extbase": "^11.5",
