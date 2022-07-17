@@ -4,7 +4,6 @@
 /.ddev
 /var
 /vendor
-!/vendor/conpassione
 /public
 !/public/typo3conf
 composer.lock
