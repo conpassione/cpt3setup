@@ -1,4 +1,10 @@
+## TYPO3 v11 composer 4
+/.git
+/.idea
 /.ddev
+/var
 /vendor
+!/vendor/conpassione
 /public
+!/public/typo3conf
 composer.lock
