@@ -35,6 +35,7 @@
 	],
 	"scripts":{
 		"typo3-cms-scripts": [
+			"typo3cms backend:createadmin",
    	 		"typo3cms configuration:set SYS/UTF8filesystem true --json",
     			"typo3cms configuration:set SYS/systemLocale de_CH.UTF-8",
     			"typo3cms configuration:set EXTCONF/lang/availableLanguages '[\"de\",\"fr\",\"it\"]' --json",
