@@ -15,7 +15,7 @@
 	},
 	"require": {
 		"helhum/typo3-console": "^7.1",
-		"typo3/cms-minimal": "^11.5",
+		"typo3/minimal": "^11.5",
 		"conpassione/cpbase": "*"
 	},
 	"require-dev": {
